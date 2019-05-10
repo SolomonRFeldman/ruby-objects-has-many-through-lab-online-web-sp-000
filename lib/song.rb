@@ -10,5 +10,9 @@ class Song
     artist.songs << self
     @@all << self
   end    
-
+  
+  def self.all
+    @all
+  end
+  
 end
